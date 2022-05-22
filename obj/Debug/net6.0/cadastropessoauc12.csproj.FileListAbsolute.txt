@@ -1,0 +1,15 @@
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\bin\Debug\net6.0\cadastropessoauc12.exe
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\bin\Debug\net6.0\cadastropessoauc12.deps.json
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\bin\Debug\net6.0\cadastropessoauc12.runtimeconfig.json
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\bin\Debug\net6.0\cadastropessoauc12.dll
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\bin\Debug\net6.0\cadastropessoauc12.pdb
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\obj\Debug\net6.0\cadastropessoauc12.csproj.AssemblyReference.cache
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\obj\Debug\net6.0\cadastropessoauc12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\obj\Debug\net6.0\cadastropessoauc12.AssemblyInfoInputs.cache
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\obj\Debug\net6.0\cadastropessoauc12.AssemblyInfo.cs
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\obj\Debug\net6.0\cadastropessoauc12.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\obj\Debug\net6.0\cadastropessoauc12.dll
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\obj\Debug\net6.0\refint\cadastropessoauc12.dll
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\obj\Debug\net6.0\cadastropessoauc12.pdb
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\obj\Debug\net6.0\cadastropessoauc12.genruntimeconfig.cache
+C:\Users\Luis\Documents\SENAI\curso_programador_full_stack\uc12\sa2\atividades\cadastropessoauc12\obj\Debug\net6.0\ref\cadastropessoauc12.dll
