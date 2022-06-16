@@ -14,9 +14,23 @@ namespace cadastropessoauc12.Classes
 
         public override float PagarImposto(float rendimento)
         {
-            throw new NotImplementedException();
-        }
+            if (rendimento <= 3000)
+            {
+                return rendimento * .03F;
 
+            } else if (rendimento <= 6000)
+            {
+                return rendimento * .05F;
+
+            } else if (rendimento <= 10000)
+            {
+                return rendimento * .07F;
+
+            } else
+            {
+                return rendimento * .09F;
+            }
+        }
 
 
         //XX.XXX.XXX/0001-xx ----- XXXXXXXX0001XX
@@ -39,6 +53,8 @@ namespace cadastropessoauc12.Classes
                     {
                         return true;
                     }
+
+
                 }
                 else if (cnpj.Length == 14)
                 {

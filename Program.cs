@@ -52,8 +52,11 @@ do
             Console.WriteLine(@$"
 Nome: {novaPf.Nome}
 Endereço: {novaPf.Endereco.logradouro}, {novaPf.Endereco.numero}
-Maior de idade: {metodosPf.ValidarDataNasc(novaPf.dataNasc)}
+Maior de idade: {(metodosPf.ValidarDataNasc(novaPf.dataNasc) ? "Sim" : "Não")}
+Imposto a ser pago: {metodosPf.PagarImposto(novaPf.Rendimento).ToString("C")}
 ");
+            // "if ternário": condição ? "Sim" ; "Não"
+
             // Console.WriteLine($"Nome: {novaPf.Nome} Nome: {novaPf.Nome}"); // Interpolação
             // Console.WriteLine("Nome: " + novaPf.Nome + " Nome: " + novaPf.Nome); // Concatenação
 
@@ -86,6 +89,7 @@ Razão Social: {novaPj.RazaoSocial}
 CNPJ: {novaPj.Cnpj}, Válido: {metodosPj.ValidarCnpj(novaPj.Cnpj)}
 Endereço: {novaPj.Endereco.logradouro}, Nº: {novaPj.Endereco.numero}
 Complemento: {novaPj.Endereco.complemento}
+Imposto a ser pago: {metodosPj.PagarImposto(novaPj.Rendimento).ToString("C")}
 ");
 
             Console.WriteLine($"Aperte ENTER para continuar");
