@@ -310,13 +310,13 @@ do
                                 Console.Clear();
                                 Console.WriteLine(@$"
 // trocou cadaPessoa por cadaItem
-Nome: {cadaPessoa.Nome}
-Razão Social: {cadaPessoa.RazaoSocial}
-CNPJ: {cadaPessoa.Cnpj}
-Endereço: {cadaPessoa.Endereco.logradouro}, Nº: {cadaPessoa.Endereco.numero}
-Complemento: {cadaPessoa.Endereco.complemento}
-Rendimento: {cadaPessoa.Rendimento}
-Imposto a ser pago: {metodosPj.PagarImposto(cadaPessoa.Rendimento).ToString("C")}
+Nome: {cadaItem.Nome}
+Razão Social: {cadaItem.RazaoSocial}
+CNPJ: {cadaItem.Cnpj}
+Endereço: {cadaItem.Endereco.logradouro}, Nº: {cadaItem.Endereco.numero}
+Complemento: {cadaItem.Endereco.complemento}
+Rendimento: {cadaItem.Rendimento}
+Imposto a ser pago: {metodosPj.PagarImposto(cadaItem.Rendimento).ToString("C")}
 ");
 
                                 Console.WriteLine("Aperte ENTER para continuar");
