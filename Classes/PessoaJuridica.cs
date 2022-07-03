@@ -10,6 +10,8 @@ namespace cadastropessoauc12.Classes
 
         public string? RazaoSocial { get; set; }
 
+        public string Caminho { get; private set; } = "Database/PessoaJuridica.csv";
+
 
 
         public override float PagarImposto(float rendimento)
@@ -67,6 +69,37 @@ namespace cadastropessoauc12.Classes
                 }
             }
             return false;
+        }
+        public void Inserir(PessoaJuridica pj){
+
+            Utils.VerificarPastaArquivo(Caminho);
+
+            string[] pjStrings = {$"{pj.Nome},{pj.RazaoSocial},{pj.Cnpj}"};
+
+            File.AppendAllLines(Caminho, pjStrings);
+        }
+
+        public List<PessoaJuridica> LerArquivo(){
+
+            List<PessoaJuridica> listaPj = new List<PessoaJuridica>();
+
+            string[] linhas = File.ReadAllLines(Caminho);
+
+            // Nome,98777555000198,Rzão Social
+            foreach (string cadaLinha in linhas)
+            {
+                string[] atributos = cadaLinha.Split(",");
+
+                PessoaJuridica cadaPj = new PessoaJuridica();
+
+                cadaPj.Nome = atributos[0];
+                cadaPj.RazaoSocial = atributos[1];
+                cadaPj.Cnpj = atributos[2];
+
+                listaPj.Add(cadaPj);
+            }
+
+            return listaPj;
         }
     }
 }
