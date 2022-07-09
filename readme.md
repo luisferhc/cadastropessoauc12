@@ -57,6 +57,6 @@ Clone o projeto com o comando abaixo:
 Pode haver erros de conversão de formato envolvendo datas e valores monetários.
 
 ## Contribuidores
-Easysoft Desenvolvimento SA
+VamoQueVamo Desenvolvimento SA
 
 
